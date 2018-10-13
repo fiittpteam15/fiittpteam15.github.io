@@ -254,6 +254,12 @@ textarea {
   overflow: auto;
   resize: vertical; }
 
+titleImg h-100 w-100 {
+  		
+	margin-left: -50px;
+	background-repeat: no-repeat;
+}  
+  
 fieldset {
   min-width: 0;
   padding: 0;
@@ -6421,9 +6427,6 @@ body > * {
   .bg-dark .input-group-text {
     color: #fff; }
 
-.cover {
-  min-height: 100%; }
-
 .inset-shadowed {
   box-shadow: inset 0px 0px 45px #555; }
 
@@ -6499,8 +6502,9 @@ body > * {
 
 /* Animate state between .navbar and .navbar-ontop */
 .navbar {
-  transition: background-color .5s ease-out; }
-
+  transition: background-color .5s ease-out;
+  height: 50px; }
+  
 .navbar-ontop {
   background-color: transparent !important; }
 
